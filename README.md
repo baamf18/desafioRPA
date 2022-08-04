@@ -10,7 +10,11 @@ Automatização de leitura de xml para transcrição em excel com python - RPA
    utilização de módulos:
     ET para leitura dos xml e localização das tags
     
-   O código perscruta todo o diretório em busca dos arquivos xml, armazena as str em uma lista, transforma-a em um objeto e então o data frame criado é passado para o excel.
+   O código perscruta todo o diretório em busca dos arquivos xml, armazena todos paths de arquivos xml como strings em uma lista, transforma-a em um objeto e então o data frame criado é passado para o excel.
    
    Tentativa de overlay no modo append não funciona, mesmo após remoção da Data Validation no excel, com programa não iniciando a inserção de dados na linha correta. Assim, a passagem de dados é setada manualmente para início na linha 5.
    
+   
+## Code_excel
+  
+  Nesse código, de versão mais antiga, a difereça é que ele não junta todos os xml do diretório raiz em apenas uma lista.
