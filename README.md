@@ -12,4 +12,5 @@ Automatização de leitura de xml para transcrição em excel com python - RPA
     
    O código perscruta todo o diretório em busca dos arquivos xml, armazena as str em uma lista, transforma-a em um objeto e então o data frame criado é passado para o excel.
    
-   tentativa de overlay no modo append não funciona, mesmo após remoção da Data Validation no excel, com programa não iniciando a inserção de dados na linha correta
+   Tentativa de overlay no modo append não funciona, mesmo após remoção da Data Validation no excel, com programa não iniciando a inserção de dados na linha correta. Assim, a passagem de dados é setada manualmente para início na linha 5.
+   
